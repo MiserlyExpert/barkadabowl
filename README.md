@@ -5,6 +5,17 @@ Website for Barkada Bowl, a Filipino/poké restaurant at 8010 N. Atlantic Ave, C
 A simple, dependency-free static site: `index.html`, `styles.css`, `script.js`. No build step,
 just open `index.html` in a browser, or serve the folder with any static file host.
 
+## Updating the menu
+
+Open `menu.js` in any plain text editor (Notepad, TextEdit, etc.), not `index.html`. It has
+step-by-step instructions in the comments at the top, but the short version:
+
+- A category name goes on its own line.
+- Each item goes on its own line starting with `- `.
+- Save the file, then refresh the page to see the change.
+
+No other file needs to change for a menu update.
+
 ## Before this goes live
 
 The contact info, hours, and menu items here were pulled from public listings (the restaurant's
