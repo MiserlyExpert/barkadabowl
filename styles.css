@@ -110,7 +110,12 @@ a:hover { text-decoration: underline; }
   .brand { color: #f4c98c; }
 }
 
-.brand-mark { font-size: 1.4rem; }
+.brand-mark {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+  border-radius: 50%;
+}
 
 .nav-toggle {
   display: none;
