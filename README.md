@@ -2,8 +2,8 @@
 
 Website for Barkada Bowl, a Filipino/poké restaurant at 8010 N. Atlantic Ave, Cape Canaveral, FL.
 
-A simple, dependency-free static site: `index.html`, `styles.css`, `script.js`. No build step —
-open `index.html` in a browser, or serve the folder with any static file host.
+A simple, dependency-free static site: `index.html`, `styles.css`, `script.js`. No build step,
+just open `index.html` in a browser, or serve the folder with any static file host.
 
 ## Before this goes live
 
@@ -31,7 +31,7 @@ The easiest free option is **GitHub Pages**:
 2. Under "Build and deployment", set Source to **Deploy from a branch**, branch `main`, folder `/ (root)`.
 3. Save. GitHub will publish the site at `https://<username>.github.io/barkadabowl/` within a minute or two.
 
-Netlify or Vercel also work if you'd rather have a custom deploy pipeline — both can deploy this
+Netlify or Vercel also work if you'd rather have a custom deploy pipeline, both can deploy this
 folder with zero configuration since there's no build step.
 
 ## Pointing the barkadabowl.com domain at this site
@@ -41,7 +41,7 @@ always means one of two things:
 
 1. **The domain registration lapsed** and it's now parked by the registrar or picked up by a
    domain-parking/ad company, which auto-redirects visitors to monetized ad pages.
-2. **DNS records point somewhere stale** — e.g. an old web host or an expired "domain forwarding"
+2. **DNS records point somewhere stale**, e.g. an old web host or an expired "domain forwarding"
    setting configured through the registrar, which itself now redirects to ads.
 
 ### How to check
@@ -49,7 +49,7 @@ always means one of two things:
 - Run a WHOIS lookup (e.g. `whois barkadabowl.com` or a site like whois.icann.org) to see the
   registrar and expiration date. If it's expired or expiring soon, that's the likely cause.
 - Ask the owner which registrar they used to buy the domain (GoDaddy, Namecheap, Google Domains/Squarespace,
-  Wix, etc.) and whether they still have login access (check email for renewal notices/receipts —
+  Wix, etc.) and whether they still have login access (check email for renewal notices/receipts,
   search their inbox for "barkadabowl.com").
 
 ### How to fix it
@@ -66,7 +66,7 @@ always means one of two things:
   domain (e.g. `barkadabowlfl.com`) and use that instead, listing it on Google Business, Yelp, and
   their social pages.
 - **If they never actually owned it** (someone registered it on their behalf, or it was never truly
-  theirs) — a new domain is the simplest path forward.
+  theirs), a new domain is the simplest path forward.
 
 In the meantime, the free GitHub Pages / Netlify URL works fine and can be shared on their Facebook,
 Instagram, and Google Business listing while the domain situation gets sorted out.
